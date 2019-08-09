@@ -16,7 +16,7 @@ This tool able to backup manually, backup automatically and restore postgres dat
 You can use [docker-compose.sample.yml](https://github.com/ffedoroff/docker-postgres-s3-backup/blob/master/docker-compose.sample.yml) file as example. Please pay attention, that real postgres container should be called exactly `postgres`:
 ```
 pgbackup:
-  image: docker-postgres-s3-backup
+  image: flarno11/postgres-backup-s3
   links:
     - postgres
   environment:
