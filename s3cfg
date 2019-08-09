@@ -34,6 +34,7 @@ send_chunk = 4096
 simpledb_host = sdb.amazonaws.com
 skip_existing = False
 socket_timeout = 300
+storage_class = STANDARD_IA
 urlencoding_mode = normal
 use_https = False
 verbosity = WARNING
