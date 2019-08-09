@@ -1,4 +1,4 @@
-FROM postgres:9.4.5
+FROM postgres:11
 
 RUN apt-get update -y && apt-get install -y s3cmd curl
 
