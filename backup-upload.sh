@@ -10,7 +10,7 @@ mkdir -p "$dname"
 
 /bin/bash s3setup.sh
 cd "$dname"
-/usr/bin/s3cmd put --rr "$fname" s3://$AWS_S3_PATH$fname
+/usr/bin/s3cmd put "$fname" s3://$AWS_S3_PATH$fname
 
 cd /
 rm -rf "$dname"

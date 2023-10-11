@@ -1,4 +1,4 @@
-FROM postgres:11
+FROM postgres:16
 
 RUN apt-get update -y && apt-get install -y s3cmd curl
 

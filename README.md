@@ -24,7 +24,7 @@ pgbackup:
     - DBNAME=please-enter
     - AWS_S3_PATH=please-enter-path/to/your/bucket/
     - AWS_KEY=please-enter
-    - AWS_SECERT=please-enter
+    - AWS_SECRET=please-enter
 
 postgres:
   image: postgres
@@ -46,7 +46,7 @@ On example above, tool will make automatic backup each day at 8am and upload it 
 
 `AWS_KEY` - your Amazon API key
 
-`AWS_SECERT` - your Amazon API Secret
+`AWS_SECRET` - your Amazon API Secret
 
 `POSTGRES_PASSWORD` - your database userpassword
 
